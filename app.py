@@ -8,8 +8,8 @@ import pandas as pd
 application = Flask(__name__)
 app = application
 
-scaler = pickle.load(open("Models/StandardScaler.pkl","rb"))
-model = pickle.load(open("Models/classifier.pkl","rb"))
+scaler = pickle.load(open("Models/scaler.pkl","rb"))
+model = pickle.load(open("Models/S_V_classifier.pkl","rb"))
 
 
 @app.route("/")
