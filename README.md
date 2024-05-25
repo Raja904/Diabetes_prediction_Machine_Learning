@@ -50,11 +50,46 @@ This repository contains a machine learning project aimed at predicting diabetes
 - **.github/workflows/**: GitHub Actions workflows for CI/CD.
 - **.vscode/**: VSCode configuration files.
 - **Dataset/**: Folder containing the dataset.
-- **Models/**: Folder containing the saved models.
-- **Notebook/**: Jupyter notebooks for data preprocessing, model training, and evaluation.
-- **templates/**: HTML templates for the web application.
-- **app.py**: Main Flask application file.
-- **requirements.txt**: Python dependencies.
+
+## Dataset Details
+
+**Source:**  
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases and was obtained from Kaggle.com.
+
+**Objective:**  
+The objective of this dataset is to predict, based on diagnostic measurements, whether a patient has diabetes.
+
+**Attributes:**
+
+- **Pregnancies**: Number of times pregnant
+- **Glucose**: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+- **BloodPressure**: Diastolic blood pressure (mm Hg)
+- **SkinThickness**: Triceps skin fold thickness (mm)
+- **Insulin**: 2-Hour serum insulin (mu U/ml)
+- **BMI**: Body mass index (weight in kg/(height in m)^2)
+- **DiabetesPedigreeFunction**: Diabetes pedigree function
+- **Age**: Age (years)
+- **Outcome**: Class variable (0 or 1).
+
+## Models
+
+Folder containing the saved models.
+
+## Notebook
+
+Jupyter notebooks for data preprocessing, model training, and evaluation.
+
+## templates
+
+HTML templates for the web application.
+
+## app.py
+
+Main Flask application file.
+
+## requirements.txt
+
+Python dependencies.
 
 ## Model Performance
 
